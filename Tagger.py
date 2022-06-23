@@ -30,8 +30,7 @@ async def start(event):
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/Tegger_utag_bot?startgroup=a')],
                       [Button.url('Support🛠', 'https://t.me/hababammsinifii')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/hababammsinifi')],
-		      [Button.url('Developer👨🏻‍💻', 'https://t.me/hababammsinifii
-')],
+		      [Button.url('Developer👨🏻‍💻', 'https://t.me/hababammsinifii')],
                     ),
                     link_preview=False
                    )
