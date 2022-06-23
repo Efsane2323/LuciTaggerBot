@@ -38,7 +38,7 @@ async def start(event):
 async def help(event):
   helptext = "**🌀 inci utag Bot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
   await event.reply(helptext,
-                    buttons=(
+                    buttons=[
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/Tegger_utag_bot?startgroup=a')],
                       Button.url('Support🛠', 'https://t.me/hababammsinifii')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/hababammsinifi')],
